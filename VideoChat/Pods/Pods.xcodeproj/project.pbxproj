@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52BC52E20BF781C50CB131DBFA70E07D /* Pods-VideoChatTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15C2A65B80AF0CAEF100D53B2BAC2F6B /* Pods-VideoChatTests-dummy.m */; };
+		6CFE4F1C93CEC88C833A046BBA42FDD1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		B0356BF6DD3EB8B5565A9B99E29D9AB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C14F5FA76B83C4005046DB775E76BDD7 /* Pods-VideoChat-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 47BDB78F0AC83BF5880D86FCF71FE30C /* Pods-VideoChat-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DA0180C73F3A7342AA43A237D0053338 /* Pods-VideoChat-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 117A371B086952FA0FC22208012F6277 /* Pods-VideoChat-dummy.m */; };
+		E5C558181417665C3823BF6AE4709F6F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		E62AA4FCCE6388DF138315F6155182BD /* Pods-VideoChatTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A708AF126E1511E084D71F1BACE95F /* Pods-VideoChatTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E738FC09B26502A21A591AF3F0A1F27C /* Pods-VideoChatUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C60C14CA9568EEC05A5A9FFBC8297E2 /* Pods-VideoChatUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F9C886F7EB5A16CBE0B5A23B8BB18E4C /* Pods-VideoChatUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C95AD536E34EE1A163752F2A30026F56 /* Pods-VideoChatUITests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04A3412A1B641928C108CB5465874357 /* Pods_VideoChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VideoChat.framework; path = "Pods-VideoChat.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		05A3DD407DC3ACC5187C014C0AE0D601 /* Pods-VideoChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoChat.release.xcconfig"; sourceTree = "<group>"; };
+		0B75BAC2A7E2AEFCD5A83DE1FEE942CD /* Pods-VideoChat-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VideoChat-acknowledgements.plist"; sourceTree = "<group>"; };
+		117A371B086952FA0FC22208012F6277 /* Pods-VideoChat-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VideoChat-dummy.m"; sourceTree = "<group>"; };
+		127B711AF7241E92F1608B71397BC2F3 /* Pods-VideoChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		15C2A65B80AF0CAEF100D53B2BAC2F6B /* Pods-VideoChatTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VideoChatTests-dummy.m"; sourceTree = "<group>"; };
+		27278CDE394F7EC86C2F75AB903EA9BF /* Pods-VideoChatTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VideoChatTests-resources.sh"; sourceTree = "<group>"; };
+		28DA74A5120CA529D62322B5B3D654CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EF24E7A5C5CA10BE14637A5013C9EDE /* Pods-VideoChat-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VideoChat-frameworks.sh"; sourceTree = "<group>"; };
+		3A08530F577D48846EEC5E0BE00A37DE /* Pods_VideoChatTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VideoChatTests.framework; path = "Pods-VideoChatTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F6BA7133CDA16EBF75FA8DA73F15F59 /* OpenTok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OpenTok.framework; sourceTree = "<group>"; };
+		47BDB78F0AC83BF5880D86FCF71FE30C /* Pods-VideoChat-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VideoChat-umbrella.h"; sourceTree = "<group>"; };
+		47DDC7CD3F37FC744780579B1BD72087 /* Pods_VideoChatUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_VideoChatUITests.framework; path = "Pods-VideoChatUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A2561715778E83666083D2674C59F0D /* Pods-VideoChatTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VideoChatTests.modulemap"; sourceTree = "<group>"; };
+		5277185B06FE1074D671B4A5B6E99A04 /* Pods-VideoChatUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VideoChatUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B47B6E79F960D21AA1F34F80F8C33C2 /* Pods-VideoChatUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VideoChatUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5E22DD0C8949F6991F947194DABBBE98 /* Pods-VideoChatUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoChatUITests.release.xcconfig"; sourceTree = "<group>"; };
+		62B25C32F827B6EFC981D14F5F778E1A /* Pods-VideoChatTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VideoChatTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		76A708AF126E1511E084D71F1BACE95F /* Pods-VideoChatTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VideoChatTests-umbrella.h"; sourceTree = "<group>"; };
+		81A160050BEEC6CC9F53AF9BEA374F74 /* Pods-VideoChatUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VideoChatUITests-resources.sh"; sourceTree = "<group>"; };
+		90E34918546E787CBE9DFF5CC41E4A8B /* Pods-VideoChatTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VideoChatTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C60C14CA9568EEC05A5A9FFBC8297E2 /* Pods-VideoChatUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VideoChatUITests-umbrella.h"; sourceTree = "<group>"; };
+		A1E3C453C60D565111AC829CA982FDFE /* Pods-VideoChatUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VideoChatUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A41A0B979CF9961670323C1A002A2611 /* Pods-VideoChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoChatTests.release.xcconfig"; sourceTree = "<group>"; };
+		B2C41DFDE3F7E51ADC7D77207A3172D6 /* Pods-VideoChatUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VideoChatUITests.modulemap"; sourceTree = "<group>"; };
+		B2F6330DEB04208C3B3BCC1D3DB995B3 /* Pods-VideoChat-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VideoChat-resources.sh"; sourceTree = "<group>"; };
+		B71CF4EDE42F143066EF569A90DB79D3 /* Pods-VideoChat.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-VideoChat.modulemap"; sourceTree = "<group>"; };
+		C6C34E2784FD033AAF6A56C6387EC585 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C6D0D419B38E2C0B4976F341F3D75017 /* Pods-VideoChatTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoChatTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C82448CC46D2384983B771045C4C4766 /* Pods-VideoChat-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VideoChat-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C95AD536E34EE1A163752F2A30026F56 /* Pods-VideoChatUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VideoChatUITests-dummy.m"; sourceTree = "<group>"; };
+		CBFEB7531CF3DA44DFC4F6A8D1F4B267 /* Pods-VideoChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VideoChat.debug.xcconfig"; sourceTree = "<group>"; };
+		DB5D472AA1D8A129B97EE7E0594B686F /* Pods-VideoChatTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VideoChatTests-frameworks.sh"; sourceTree = "<group>"; };
+		F9396704271AAD3A21E8EEB47114BAAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52B24F6BCF026BA473788E48D3E853D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5C558181417665C3823BF6AE4709F6F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84C7F6876EC5B7085460434249270F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0356BF6DD3EB8B5565A9B99E29D9AB5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5990418F9C45ECFFD0B12C0EB0BB487 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6CFE4F1C93CEC88C833A046BBA42FDD1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3971E8EC73A40964EF3A665691E38C18 /* Pods-VideoChat */ = {
+			isa = PBXGroup;
+			children = (
+				F9396704271AAD3A21E8EEB47114BAAE /* Info.plist */,
+				B71CF4EDE42F143066EF569A90DB79D3 /* Pods-VideoChat.modulemap */,
+				C82448CC46D2384983B771045C4C4766 /* Pods-VideoChat-acknowledgements.markdown */,
+				0B75BAC2A7E2AEFCD5A83DE1FEE942CD /* Pods-VideoChat-acknowledgements.plist */,
+				117A371B086952FA0FC22208012F6277 /* Pods-VideoChat-dummy.m */,
+				2EF24E7A5C5CA10BE14637A5013C9EDE /* Pods-VideoChat-frameworks.sh */,
+				B2F6330DEB04208C3B3BCC1D3DB995B3 /* Pods-VideoChat-resources.sh */,
+				47BDB78F0AC83BF5880D86FCF71FE30C /* Pods-VideoChat-umbrella.h */,
+				CBFEB7531CF3DA44DFC4F6A8D1F4B267 /* Pods-VideoChat.debug.xcconfig */,
+				05A3DD407DC3ACC5187C014C0AE0D601 /* Pods-VideoChat.release.xcconfig */,
+			);
+			name = "Pods-VideoChat";
+			path = "Target Support Files/Pods-VideoChat";
+			sourceTree = "<group>";
+		};
+		4F4D387A09EED0116C915EFE6FB613D0 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3971E8EC73A40964EF3A665691E38C18 /* Pods-VideoChat */,
+				E20609379EED6582CD2A689692273299 /* Pods-VideoChatTests */,
+				BF8B00D165B6384B0BCD3C94FA020EF9 /* Pods-VideoChatUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6D5298F7A56BBBA6485A1835829A60B0 /* OpenTok */ = {
+			isa = PBXGroup;
+			children = (
+				E1658FF23B63AE05533C82B9122A463A /* Frameworks */,
+			);
+			name = OpenTok;
+			path = OpenTok;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				C5E6EBA5D78424BA468E339EC7E6C57E /* Pods */,
+				BB78382815D4BBE87B7A80325150F0C6 /* Products */,
+				4F4D387A09EED0116C915EFE6FB613D0 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BB78382815D4BBE87B7A80325150F0C6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04A3412A1B641928C108CB5465874357 /* Pods_VideoChat.framework */,
+				3A08530F577D48846EEC5E0BE00A37DE /* Pods_VideoChatTests.framework */,
+				47DDC7CD3F37FC744780579B1BD72087 /* Pods_VideoChatUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF8B00D165B6384B0BCD3C94FA020EF9 /* Pods-VideoChatUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C6C34E2784FD033AAF6A56C6387EC585 /* Info.plist */,
+				B2C41DFDE3F7E51ADC7D77207A3172D6 /* Pods-VideoChatUITests.modulemap */,
+				A1E3C453C60D565111AC829CA982FDFE /* Pods-VideoChatUITests-acknowledgements.markdown */,
+				5277185B06FE1074D671B4A5B6E99A04 /* Pods-VideoChatUITests-acknowledgements.plist */,
+				C95AD536E34EE1A163752F2A30026F56 /* Pods-VideoChatUITests-dummy.m */,
+				5B47B6E79F960D21AA1F34F80F8C33C2 /* Pods-VideoChatUITests-frameworks.sh */,
+				81A160050BEEC6CC9F53AF9BEA374F74 /* Pods-VideoChatUITests-resources.sh */,
+				9C60C14CA9568EEC05A5A9FFBC8297E2 /* Pods-VideoChatUITests-umbrella.h */,
+				127B711AF7241E92F1608B71397BC2F3 /* Pods-VideoChatUITests.debug.xcconfig */,
+				5E22DD0C8949F6991F947194DABBBE98 /* Pods-VideoChatUITests.release.xcconfig */,
+			);
+			name = "Pods-VideoChatUITests";
+			path = "Target Support Files/Pods-VideoChatUITests";
+			sourceTree = "<group>";
+		};
+		C5E6EBA5D78424BA468E339EC7E6C57E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D5298F7A56BBBA6485A1835829A60B0 /* OpenTok */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E1658FF23B63AE05533C82B9122A463A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3F6BA7133CDA16EBF75FA8DA73F15F59 /* OpenTok.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E20609379EED6582CD2A689692273299 /* Pods-VideoChatTests */ = {
+			isa = PBXGroup;
+			children = (
+				28DA74A5120CA529D62322B5B3D654CF /* Info.plist */,
+				4A2561715778E83666083D2674C59F0D /* Pods-VideoChatTests.modulemap */,
+				62B25C32F827B6EFC981D14F5F778E1A /* Pods-VideoChatTests-acknowledgements.markdown */,
+				90E34918546E787CBE9DFF5CC41E4A8B /* Pods-VideoChatTests-acknowledgements.plist */,
+				15C2A65B80AF0CAEF100D53B2BAC2F6B /* Pods-VideoChatTests-dummy.m */,
+				DB5D472AA1D8A129B97EE7E0594B686F /* Pods-VideoChatTests-frameworks.sh */,
+				27278CDE394F7EC86C2F75AB903EA9BF /* Pods-VideoChatTests-resources.sh */,
+				76A708AF126E1511E084D71F1BACE95F /* Pods-VideoChatTests-umbrella.h */,
+				C6D0D419B38E2C0B4976F341F3D75017 /* Pods-VideoChatTests.debug.xcconfig */,
+				A41A0B979CF9961670323C1A002A2611 /* Pods-VideoChatTests.release.xcconfig */,
+			);
+			name = "Pods-VideoChatTests";
+			path = "Target Support Files/Pods-VideoChatTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		607FA49BB954A5B2FBBD60A1D373C148 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E62AA4FCCE6388DF138315F6155182BD /* Pods-VideoChatTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6D66A87EDCF84E2ED7302A721E60A231 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E738FC09B26502A21A591AF3F0A1F27C /* Pods-VideoChatUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C09665280A33397DA4354885EF5379A2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C14F5FA76B83C4005046DB775E76BDD7 /* Pods-VideoChat-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4BAD0C43246EC97F5D0314D0C183C135 /* Pods-VideoChatTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89F3202D51C5B99937E2907E787D13A0 /* Build configuration list for PBXNativeTarget "Pods-VideoChatTests" */;
+			buildPhases = (
+				2E980039E89021586CFD668BC7D4635C /* Sources */,
+				A5990418F9C45ECFFD0B12C0EB0BB487 /* Frameworks */,
+				607FA49BB954A5B2FBBD60A1D373C148 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VideoChatTests";
+			productName = "Pods-VideoChatTests";
+			productReference = 3A08530F577D48846EEC5E0BE00A37DE /* Pods_VideoChatTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4E2FF9D360CDEEFE291EE2A6EB87A8C1 /* Pods-VideoChat */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C00CCD289F5ED86D214C72E86760A4FF /* Build configuration list for PBXNativeTarget "Pods-VideoChat" */;
+			buildPhases = (
+				542C94AB54F55B3B9647BDF6BE0DD35A /* Sources */,
+				84C7F6876EC5B7085460434249270F07 /* Frameworks */,
+				C09665280A33397DA4354885EF5379A2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VideoChat";
+			productName = "Pods-VideoChat";
+			productReference = 04A3412A1B641928C108CB5465874357 /* Pods_VideoChat.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		599F13B9ECF781176A4EAB0FED23F099 /* Pods-VideoChatUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A8421B4119B124694C82A7B476E6B71 /* Build configuration list for PBXNativeTarget "Pods-VideoChatUITests" */;
+			buildPhases = (
+				168F7EB8870051769C84BD83AD416EE8 /* Sources */,
+				52B24F6BCF026BA473788E48D3E853D4 /* Frameworks */,
+				6D66A87EDCF84E2ED7302A721E60A231 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-VideoChatUITests";
+			productName = "Pods-VideoChatUITests";
+			productReference = 47DDC7CD3F37FC744780579B1BD72087 /* Pods_VideoChatUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BB78382815D4BBE87B7A80325150F0C6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E2FF9D360CDEEFE291EE2A6EB87A8C1 /* Pods-VideoChat */,
+				4BAD0C43246EC97F5D0314D0C183C135 /* Pods-VideoChatTests */,
+				599F13B9ECF781176A4EAB0FED23F099 /* Pods-VideoChatUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		168F7EB8870051769C84BD83AD416EE8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9C886F7EB5A16CBE0B5A23B8BB18E4C /* Pods-VideoChatUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2E980039E89021586CFD668BC7D4635C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BC52E20BF781C50CB131DBFA70E07D /* Pods-VideoChatTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542C94AB54F55B3B9647BDF6BE0DD35A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA0180C73F3A7342AA43A237D0053338 /* Pods-VideoChat-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		25FCF24B6804756B24BAA245D2E0CAA3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05A3DD407DC3ACC5187C014C0AE0D601 /* Pods-VideoChat.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoChat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoChat/Pods-VideoChat.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VideoChat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		33885742D4055A1F5AE3B59DB85963E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E22DD0C8949F6991F947194DABBBE98 /* Pods-VideoChatUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoChatUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoChatUITests/Pods-VideoChatUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VideoChatUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39C5BC78A31CDE101068C530CAC7FA0F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6C8434E76D6D24A821D73E3DE3CC452A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBFEB7531CF3DA44DFC4F6A8D1F4B267 /* Pods-VideoChat.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoChat/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoChat/Pods-VideoChat.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VideoChat;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D25CDAE36FB937F1EF6EAE489F6F9F2C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A41A0B979CF9961670323C1A002A2611 /* Pods-VideoChatTests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoChatTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoChatTests/Pods-VideoChatTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VideoChatTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		EA245B9AAB2F3D921F1D51BB0F6D1242 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 127B711AF7241E92F1608B71397BC2F3 /* Pods-VideoChatUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoChatUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoChatUITests/Pods-VideoChatUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VideoChatUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F62A732B18125E33170D14D6BDCBDBCA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C6D0D419B38E2C0B4976F341F3D75017 /* Pods-VideoChatTests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VideoChatTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VideoChatTests/Pods-VideoChatTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_VideoChatTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A8421B4119B124694C82A7B476E6B71 /* Build configuration list for PBXNativeTarget "Pods-VideoChatUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA245B9AAB2F3D921F1D51BB0F6D1242 /* Debug */,
+				33885742D4055A1F5AE3B59DB85963E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C5BC78A31CDE101068C530CAC7FA0F /* Debug */,
+				89C8BB24E37B25BAEEB8FBA01EE05DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89F3202D51C5B99937E2907E787D13A0 /* Build configuration list for PBXNativeTarget "Pods-VideoChatTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F62A732B18125E33170D14D6BDCBDBCA /* Debug */,
+				D25CDAE36FB937F1EF6EAE489F6F9F2C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C00CCD289F5ED86D214C72E86760A4FF /* Build configuration list for PBXNativeTarget "Pods-VideoChat" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C8434E76D6D24A821D73E3DE3CC452A /* Debug */,
+				25FCF24B6804756B24BAA245D2E0CAA3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
